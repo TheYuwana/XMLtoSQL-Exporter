@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<user>
+		<FirstName>Jonathan</FirstName>
+		<LastName>van putten</LastName>
+		<Email>jon@sql.com</Email>
+		<Password>1234576</Password>
+	</user>
+	<user>
+		<FirstName>Erik</FirstName>
+		<LastName>van Marewijk</LastName>
+		<Email>erik@sql.com</Email>
+		<Password>123456</Password>
+	</user>
+	<user>
+		<FirstName>Rob</FirstName>
+		<LastName>Something</LastName>
+		<Email>Rob@sql.com</Email>
+		<Password>UbFCFBmvNV</Password>
+	</user>
+	<user>
+		<FirstName>Andy </FirstName>
+		<LastName>Blauwmeester</LastName>
+		<Email>Andy@sql.com</Email>
+		<Password>uXxdpsq3vQ</Password>
+	</user>
+</data-set>

@@ -1,0 +1,5 @@
+D:\Desktop\XmlToSQLExporter\XMLtoSQLExport\XMLtoSQLExport\bin\Debug\XMLtoSQLExport.exe
+D:\Desktop\XmlToSQLExporter\XMLtoSQLExport\XMLtoSQLExport\bin\Debug\XMLtoSQLExport.pdb
+D:\Desktop\XmlToSQLExporter\XMLtoSQLExport\XMLtoSQLExport\obj\x86\Debug\XMLtoSQLExport.exe
+D:\Desktop\XmlToSQLExporter\XMLtoSQLExport\XMLtoSQLExport\obj\x86\Debug\XMLtoSQLExport.pdb
+D:\Desktop\XmlToSQLExporter\XMLtoSQLExport\XMLtoSQLExport\obj\x86\Debug\XMLtoSQLExport.csprojResolveAssemblyReference.cache

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<userTable>
+	<userRow>
+		<email>a@a.com</email>
+		<first_name>a</first_name>
+		<last_name>a</last_name>
+		<password>test</password>
+	</userRow>
+	<userRow>
+		<email>b@b.com</email>
+		<first_name>b</first_name>
+		<last_name>b</last_name>
+		<password>test</password>
+	</userRow>
+	<userRow>
+		<email>c@c.com</email>
+		<first_name>c</first_name>
+		<last_name>c</last_name>
+		<password>test</password>
+	</userRow>
+	<userRow>
+		<email>d@d.com</email>
+		<first_name>d</first_name>
+		<last_name>d</last_name>
+		<password>test</password>
+	</userRow>
+</userTable>
