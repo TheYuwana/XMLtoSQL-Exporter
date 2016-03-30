@@ -47,14 +47,14 @@ namespace XMLtoSQLExport
                 "SET @userTeam = " + teamID + ";\n" +
                 "INSERT INTO lucidious_users(name, pass, mail, status, language, init, picture) VALUES (@userMail, @userPassword, @userMail, 1, 'nl', @userMail, 0);\n" +
                 "SET @userID = LAST_INSERT_ID();\n" +
-                "INSERT INTO lucidious_field_revision_field_first_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_first_name_value, field_first_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userName, null);\n" +
-                "INSERT INTO lucidious_field_revision_field_last_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_last_name_value, field_last_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userLastname, null);\n" +
-                "INSERT INTO lucidious_field_revision_field_organization (entity_type, bundle, deleted, entity_id, language, delta, field_organization_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userOrganization);\n" +
-                "INSERT INTO lucidious_field_revision_field_team (entity_type, bundle, deleted, entity_id, language, delta, field_team_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userTeam);\n" +
-                "INSERT INTO lucidious_field_data_field_first_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_first_name_value, field_first_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userName, null);\n" +
-                "INSERT INTO lucidious_field_data_field_last_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_last_name_value, field_last_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userLastname, null);\n" +
-                "INSERT INTO lucidious_field_data_field_organization (entity_type, bundle, deleted, entity_id, language, delta, field_organization_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userOrganization);\n" +
-                "INSERT INTO lucidious_field_data_field_team (entity_type, bundle, deleted, entity_id, language, delta, field_team_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userTeam);\n";
+                "INSERT INTO test_field_revision_field_first_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_first_name_value, field_first_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userName, null);\n" +
+                "INSERT INTO test_field_revision_field_last_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_last_name_value, field_last_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userLastname, null);\n" +
+                "INSERT INTO test_field_revision_field_organization (entity_type, bundle, deleted, entity_id, language, delta, field_organization_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userOrganization);\n" +
+                "INSERT INTO test_field_revision_field_team (entity_type, bundle, deleted, entity_id, language, delta, field_team_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userTeam);\n" +
+                "INSERT INTO test_field_data_field_first_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_first_name_value, field_first_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userName, null);\n" +
+                "INSERT INTO test_field_data_field_last_name (entity_type, bundle, deleted, entity_id, revision_id, language, delta, field_last_name_value, field_last_name_format) VALUES ('user', 'user', 0, @userID, @userID, 'und', 0, @userLastname, null);\n" +
+                "INSERT INTO test_field_data_field_organization (entity_type, bundle, deleted, entity_id, language, delta, field_organization_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userOrganization);\n" +
+                "INSERT INTO test_field_data_field_team (entity_type, bundle, deleted, entity_id, language, delta, field_team_target_id) VALUES ('user', 'user', 0, @userID, 'und', 0, @userTeam);\n";
 
                 sb.Append(SQLQuery);
             }
